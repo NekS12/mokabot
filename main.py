@@ -837,8 +837,8 @@ async def process_question_three(message: types.Message, state: FSMContext):
 
 
 async def create(amount, chat_id, current_order_number):
-    Configuration.account_id='472705'
-    Configuration.secret_key='test_OkhBb03l4WrPp_qo1dpFVXfCz1yfkVmySy2_SCLefQQ'
+    Configuration.account_id='Ваш аккаунт айди от Юкассы'
+    Configuration.secret_key='Кдюч, который выдает Юкасса'
     id_key = str(uuid.uuid4())
     payment= Payment.create({"amount": {
         "value": str(amount),
